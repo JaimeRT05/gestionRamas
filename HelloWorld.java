@@ -5,7 +5,7 @@ public class HelloWorld {
         
         String rojo = "\033[32m";
         String azul = "\033[34m";
-        System.out.println("Hola Mundo! from GITT");
-        System.out.println("Aquí estamos haciendo pruebas en Git");
+        System.out.println(rojo+ "Hola Mundo! from GITT");
+        System.out.println(azul +"Aquí estamos haciendo pruebas en Git");
     }
 }
